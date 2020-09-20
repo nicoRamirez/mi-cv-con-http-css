@@ -1,0 +1,50 @@
+body{
+    background: url(../imagenes/pexels-luis-quintero-2148217.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nombre{
+    text-align: center;
+    color: white;
+    padding-left: 50px;
+}
+.opcionMenu{
+    display: inline-block;
+    margin-left: -30px;
+}
+#menu{
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+#datos{
+    color: white;
+    text-align: center;
+}
+.lista{
+    display: inline;
+}
+.informacion{
+    padding-bottom: 20px;
+}
+.tabla{
+    padding-top: 100px;
+}
+#marco.tr,td,th{
+    border: 2px solid #FD9A28;
+    color: blanchedalmond;
+    border-collapse: collapse;
+}
+#parrafo{
+    color: white;
+    font-size: 35px;
+}
+.estudios{
+    color: white;
+    font-size: 50px;
+}
