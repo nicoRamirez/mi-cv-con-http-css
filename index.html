@@ -4,32 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>mi cv</title>
-
-<body >
-        <h1 class="nombre">Nicolas Ramirez</h1> <br />
-    
-   
-        <ul id="menu">
-            <li class="opcionMenu"><a href="paginas/expLaboral.html">experiencia laboral</a> <br /></li>
-            <li  class="opcionMenu"><a href="paginas/estudios.html">estudios</a></li>
-    
-        </ul>
-    <div id="datos">
-    <ul class="lista">
-        <li class=informacion>Edad: 25 años</li>
-        <li class=informacion>DNI: 38.943.650</li>
-        <li class=informacion>Nacionalidad: Argentino</li>
-        <li class=informacion>C.U.I.L:20-38943650-0</li>
-        <li class=informacion>Dirección: Merlo, Buenos Aires</li>
-        <li class=informacion>Teléfono móvil: 112379740</li>
-        <li class=informacionTeléfono>fijo: 0220-4970349</li>
-        <li class=informacion>Email: nicolasmatiasramirez@gmail.com</li>
-    </ul>
-</div>
-
-</body>
 </head>
 
+<body>
+    <div class="alert alert-warning alert-dismissible fade show b p-3 mb-2 bg-dark text-white border border-dark rounded-0"
+        role="alert">
+        <strong class="display-2">Bienvenido</strong>
+        <p class="h3">En esta página encontraras información sobre mí, Nicolás Matías Ramírez. <br />
+            Datos personales, estudios, conocimientos y experiencia laboral</p>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mi CV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Mis Datos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/estudios.html">Estudios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/expLaboral.html">Experiencia Laboral</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container col-md">
+        <h1 class="nombre">Nicolas Ramirez</h1>
+    </div>
+
+    </ul>
+    <div id="datos">
+        <ul class="lista">
+            <li class=informacion>Edad: 25 años</li>
+            <li class=informacion>DNI: 38.943.650</li>
+            <li class=informacion>Nacionalidad: Argentino</li>
+            <li class=informacion>C.U.I.L:20-38943650-0</li>
+            <li class=informacion>Dirección: Merlo, Buenos Aires</li>
+            <li class=informacion>Teléfono móvil: 112379740</li>
+            <li class=informacion>fijo: 0220-4970349</li>
+            <li class=informacion>Email: nicolasmatiasramirez@gmail.com</li>
+        </ul>
+    </div>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+
 </html>
+
+  
+  
+
+
+  
